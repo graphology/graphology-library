@@ -1,0 +1,33 @@
+{
+  "name": "graphology-library",
+  "version": "0.0.1",
+  "description": "Graphology's standard library.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prepublish": "echo 'PREPUBLISH'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graphology/graphology-library.git"
+  },
+  "keywords": [
+    "graph",
+    "graphology",
+    "library"
+  ],
+  "author": {
+    "name": "Guillaume Plique",
+    "url": "http://github.com/Yomguithereal"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graphology/graphology-library/issues"
+  },
+  "homepage": "https://github.com/graphology/graphology-library#readme",
+  "dependencies": {
+    "graphology": "^0.11.2"
+  }
+}
