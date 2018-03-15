@@ -4,7 +4,7 @@
   "description": "Graphology's standard library.",
   "main": "index.js",
   "files": [
-    "index.js"
+    "*.js"
   ],
   "scripts": {},
   "repository": {
