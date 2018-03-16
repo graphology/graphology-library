@@ -14,5 +14,6 @@ exports.layout = require('./layout');
 exports.layoutForceAtlas2 = require('./layout-forceatlas2');
 exports.metrics = require('./metrics');
 exports.operators = require('./operators');
+exports.pagerank = require('./pagerank');
 exports.shortestPath = require('./shortest-path');
 exports.utils = require('./utils');
