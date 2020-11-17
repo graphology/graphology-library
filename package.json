@@ -3,9 +3,11 @@
   "version": "0.3.0",
   "description": "Graphology's standard library.",
   "main": "index.js",
+  "types": "index.d.ts",
   "browser": "browser.js",
   "files": [
     "*.js",
+    "*.d.ts",
     "dist"
   ],
   "scripts": {
