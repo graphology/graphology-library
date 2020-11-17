@@ -16,7 +16,13 @@ You can import packages using the documented examples of each package or thusly:
 
 ```js
 // Importing a sub package
-import metrics from 'graphology-library/metrics';
+import * as metrics from 'graphology-library/metrics';
 
-metrics.
+metrics.density(graph);
+
+// Importing parts of the library
+import {metrics, layout} from 'graphology-library';
+
+// Importing the whole library
+import * as lib from 'graphology-library';
 ```

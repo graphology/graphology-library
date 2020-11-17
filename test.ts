@@ -1,5 +1,6 @@
 import Graph from 'graphology';
 import * as metrics from './metrics';
+import * as lib from './';
 
 const graph = new Graph();
 
@@ -12,3 +13,4 @@ graph.addEdge(1, 2);
 const density = metrics.density(graph);
 
 console.log('Graph density:', density);
+console.log('Same:', lib.metrics.density(graph));
