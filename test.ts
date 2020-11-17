@@ -1,4 +1,4 @@
-import {default as Graph} from 'graphology';
+import Graph from 'graphology';
 import * as metrics from './metrics';
 
 const graph = new Graph();
